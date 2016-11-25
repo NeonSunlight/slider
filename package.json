@@ -19,15 +19,13 @@
   },
   "files": [
     "assets/*.css",
-    "lib",
-    "dist"
+    "src"
   ],
   "licenses": "MIT",
   "main": "./lib/index.js",
   "entry": {
-    "rc-slider": ["./assets/index.less", "./src/index.js"]
+    "rc-slider": ["./src/index.js"]
   },
-  "style": "./assets/index.css",
   "config": {
     "port": 8005
   },
